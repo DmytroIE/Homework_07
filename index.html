@@ -81,7 +81,8 @@
                         <div class="form-columns-container">
                             <div class="form-column"> 
                                 <input type="text" name="name" id="" required placeholder="Your Name*" pattern="[A-Za-z].+">
-                                <input type="email" name="email" id="" required placeholder="Your E-Mail*" pattern="[\w.-]+\@[\w.-]+\.[\w]{2,}">
+                                <input type="email" name="email" id="" required placeholder="Your E-Mail*" pattern="[A-Za-z0-9_.-]+@[A-Za-z0-9_.-]+\.[A-Za-z]{2,}">
+                                <!-- [\w.-]+\@[\w.-]+\.[\w]{2,} -->
                                 <input type="text" name="subject" id="" placeholder="Subject">
                             </div>
                             <div class="form-column"> 
